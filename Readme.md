@@ -10,7 +10,7 @@ A Unix-style command-line tool to print `.xlsx` spreadsheet content to standard 
 ## Installation
 
 ```bash
-git clone https://github.com/<TON_UTILISATEUR>/xlsx_cat.git
+git clone https://github.com/BaptisteHerlemont/xlsx_cat.git
 cd xlsx_cat
 make
 sudo make install
