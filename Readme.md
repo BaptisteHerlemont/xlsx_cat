@@ -19,5 +19,6 @@ bash install_deps.sh
 ```bash
 git clone https://github.com/BaptisteHerlemont/xlsx_cat.git
 cd xlsx_cat
+bash install_deps.sh
 make
 sudo make install
