@@ -13,8 +13,8 @@ You can install everything automatically with the provided script:
 
 ```bash
 bash install_deps.sh
-## Installation
 ```
+## Installation
 
 ```bash
 git clone https://github.com/BaptisteHerlemont/xlsx_cat.git
