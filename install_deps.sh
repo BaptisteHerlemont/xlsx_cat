@@ -15,4 +15,4 @@ make
 sudo make install
 sudo ldconfig
 
-echo "✅ Dependencies installed successfully."
+echo "Dependencies installed successfully."
