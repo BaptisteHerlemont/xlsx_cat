@@ -1,6 +1,7 @@
 # xlsx_cat
 
-A Unix-style command-line tool to print `.xlsx` spreadsheet content to standard output (like `cat` but for Excel files).
+A Unix-style command-line tool to print `.xlsx` spreadsheet content to standard output (like `cat` but for modern Excel files).
+Note: only `.xlsx` (Office Open XML) files are supported.
 
 ## Requirements (automated setup available)
 
@@ -22,3 +23,12 @@ cd xlsx_cat
 bash install_deps.sh
 make
 sudo make install
+```
+
+## Usage
+
+```bash
+xlsx_cat <xlsx_file> [sheet_index]
+```
+
+- `sheet_index` is 1-based (default: 1).
